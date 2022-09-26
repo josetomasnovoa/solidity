@@ -3,7 +3,7 @@
 1. Install Metamask or any similar crypto wallet
 2. Open Remix at https://remix.ethereum.org/
 3. Create file "SimpleSmartContract.sol" anywhere on the Remix directory
-4. Copy these code into the file and save it
+4. Copy these code into the file and save it as Message.sol (or any name you want with the extension .sol)
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.13;
