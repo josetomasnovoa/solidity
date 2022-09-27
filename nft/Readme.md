@@ -1,25 +1,18 @@
 Cómo crear mi primer NFT
 
-Abrir https://remix.ethereum.org/.
-Crear un archivo en el panel lateral a la izquierda con la extensión .sol
-Ej: MiCoin.sol
+1. Abrir https://remix.ethereum.org/.
+2. Crear un archivo en el panel lateral a la izquierda con la extensión .sol (Ej: MiCoin.sol)
+3. Copie y pegue este archivo: _________
+4. Compile file
+5. Deploy contract
+6. SafeMint with your test address
 
-Copie y pegue este archivo: _________
+7. Ir a OpenSea y desplegar el NFT en la red de test
+  * https://testnets.opensea.io/
+  * (ref: https://testnets.opensea.io/collection/flower-ethsantiago-v2)
 
-Compile file
-
-Deploy contract
-
-SafeMint with your test address
-
-Ir a OpenSea y desplegar el NFT en la red de test
-https://testnets.opensea.io/
-(ref: https://testnets.opensea.io/collection/flower-ethsantiago-v2)
-
-Entrar a este link y configurar un cron para el contrato usando Custom Logic
-https://keepers.chain.link/
-
-Upkeep name: MiCoin
-Gaslimit: 200000
-
-Strating balance: 5 LINK
+8. Entrar a este link y configurar un cron para el contrato usando Custom Logic
+  * https://keepers.chain.link/
+  * Upkeep name: MiCoin
+  * Gaslimit: 200000
+  * Strating balance: 5 LINK
